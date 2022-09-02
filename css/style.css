@@ -2,3 +2,372 @@
     margin: 0;
     padding: 0;
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+
+
+
+body {
+    Width:1440px;
+    background-color: #fff;
+    margin: 0 auto;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* -------------header---------*/
+header {
+    margin: 0 auto;
+    width: 1440px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-logo-header {
+   padding-left: 135px;
+}
+
+.wrapper-logo-header a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #02012B;
+    display: flex;
+    align-items: center; 
+}
+
+.wrapper-logo-header img{
+    padding-right: 6px;
+}
+
+.nav-header {
+    height: 21px;
+    padding-left: 324px;
+}
+.nav-header ul{
+    display: flex;
+    justify-content:space-between;
+}
+
+.nav-header ul li:not(:last-of-type) {
+    padding-right: 40px;
+    list-style-type:none;
+}
+
+.nav-header ul li:last-child {
+    list-style-type:none;
+}
+
+.li-nav-header a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #02012B;
+}
+
+.li-nav-header a:hover{
+    color: #090772;
+    text-decoration:underline ;
+}
+
+.login-header {
+    padding-left: 120px;    
+}
+
+.login-header a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background-color: #19BCE4;
+    border-radius: 6px;
+    width: 96px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-header a:hover {
+    background-color: #1c819b;
+}
+
+/* -------------Блок search---------*/
+
+
+.search {
+    width: 1440px;
+    height: 700px;
+    background-image: url(../img/imagemain.png);
+}
+
+.img-search {
+    width: 1440px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.56);
+}
+
+.wrapper-search {
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items: center; 
+}
+
+.wrapper-search p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 622px;
+    height: 60px;
+    margin-top: 24px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;    
+    color: #FFFFFF;
+    margin-top: 185px;
+}
+
+.form-search {
+    width: 1170px;
+    height: 118px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    margin-top:97px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.block-form-search {
+    width: 259px;
+    height: 70px;
+    border: 0.5px solid rgba(25, 188, 228, 0.3);
+}
+
+.block-form-search:nth-child(1) {
+   margin-left: 24px;
+}
+
+
+.img-form-search {
+    display: flex; 
+    align-items: center;
+
+}
+
+.text-form-search {
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #555555;
+    font-style: normal;
+}
+
+.logo-form-search {
+    background-image: url(../img/Group3221.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-top: 11px;
+    margin-left: 6px;
+}
+
+.logo-form-search:hover {
+    background-color: #8ad5e7;
+}
+
+.text2-form-search {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222222;
+    margin-left: 30px;
+    margin-top: 8px;
+    display: block;
+    font-style: normal;
+}
+
+.buttom-form-search{ 
+    width: 259px;
+    height: 70px;
+    background-color: #19BCE4;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttom-form-search:hover {
+    background-color: #1c819b;
+}
+/* -------------Блок main----------*/
+main {
+    height:846px;
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.block-main {
+    width: 1152px;
+    height: 606px;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+}
+
+.text-block-main {
+    margin-left: 80px;
+}
+
+.img1-block-main {
+    width: 520px;
+    height:561px;
+}
+
+.img2-block-main {
+    width: 240px;
+    height:160px;
+    transform: translateY(-120px);
+    margin-left: 318px; 
+}
+
+.About-Us {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #02012B;
+}
+
+h2 {
+    width: 555px;
+    height: 122px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    color: #222222;
+    margin-top: 10px;
+    display: block;
+}
+
+.p-About-Us {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #555555;
+    margin-top: 24px;
+    display: block;
+    width: 480px;
+}
+
+.wrapper-work-main {
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+}
+
+.work-main {
+    width: 221px;
+    margin-top: 40px;
+}
+
+.p-work-main {
+    width: 232px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #555555;
+    margin-top: 16px;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #222222;
+    margin-top: 24px;
+}
+
+.logo-work-main {
+    background-image: url(..//img/support1.png);
+    width: 56px;
+    height: 56px;
+    
+}
+
+.logo-work-main2 {
+    background-image: url(..//img/team1.png);
+    width: 56px;
+    height: 56px;
+}
+
+.buttom-main { 
+    width: 169px;
+    height: 56px;
+    background-color: #19BCE4;
+    border-radius: 6px;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.buttom-main:hover {
+    background-color: #1c819b;
+}
+
+/* -------------Блок apartment---------*/
+.apartment {
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #1c819b;
+}
+
+.img-apartment {
+    height: 764px;
+    width: 603px;
+    background-color: #486770;
+    
+}
+
+.h2-apartment {
+    width: 660px;
+    height: 61px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    color: #222222;
+    padding-top: 75px;
+    
+}
+
+.logo-apartment {
+    background-image: url(..//img/Rectangle2181.png);
+    background-repeat: no-repeat;
+    width: 560px;
+    height: 520px;
+    margin-top: 68px;
+}
