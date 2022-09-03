@@ -15,6 +15,7 @@ body {
     margin: 0 auto;
     font-style: normal;
     font-family: 'Montserrat', sans-serif;
+    background-color: #F8FDFE;
 }
 
 /* -------------header---------*/
@@ -27,7 +28,7 @@ header {
 }
 
 .wrapper-logo-header {
-   padding-left: 135px;
+    padding-left: 135px;
 }
 
 .wrapper-logo-header a {
@@ -157,7 +158,7 @@ h1 {
 }
 
 .block-form-search:nth-child(1) {
-   margin-left: 24px;
+    margin-left: 24px;
 }
 
 
@@ -256,7 +257,7 @@ main {
     color: #02012B;
 }
 
-h2 {
+.h2-main {
     width: 555px;
     height: 122px;
     font-weight: 700;
@@ -304,6 +305,7 @@ h3 {
     line-height: 28px;
     color: #222222;
     margin-top: 24px;
+    width: 254px;
 }
 
 .logo-work-main {
@@ -342,15 +344,7 @@ h3 {
 .apartment {
     width: 1440px;
     height: 800px;
-    margin: 0 auto;
-    background-color: #1c819b;
-}
-
-.img-apartment {
-    height: 764px;
-    width: 603px;
-    background-color: #486770;
-    
+    margin: 0 auto;    
 }
 
 .h2-apartment {
@@ -361,7 +355,11 @@ h3 {
     line-height: 61px;
     color: #222222;
     padding-top: 75px;
-    
+    margin-left: 144px;
+}
+
+.wrapper-apartment {
+    display: flex;
 }
 
 .logo-apartment {
@@ -370,4 +368,206 @@ h3 {
     width: 560px;
     height: 520px;
     margin-top: 68px;
+    margin-left: 144px;
+    display: flex;
+    flex-direction:column;
 }
+
+.block-apartment {
+    height: 520px;
+    width: 541px;
+    margin-top: 68px;
+    margin-left: 75px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.box-block-apartment:hover {
+border: 1px solid #1c819b;
+}
+
+.box-block-apartment {
+    background-color: #1c819b;
+    width: 541px;
+    height: 118px;
+    background: #FFFFFF;
+    border: 0.5px solid rgba(25, 188, 228, 0.2);
+    background-image: url(..//img/Group3254.png);
+    background-repeat: no-repeat;
+    background-position: 24px 28px;
+}
+
+.img-apartment2 {
+    background-image: url(..//img/Group3255.png);
+}
+
+.img-apartment3 {
+    background-image: url(..//img/Group3252.png);
+}   
+
+.img-apartment4 {
+    background-image: url(..//img/Group3253.png);
+}
+
+.span-apartment {
+    height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222222;
+    margin-left: 102px;
+    margin-top: 24px;
+    display: block;
+}
+
+.p-apartment {
+    height: 60px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;    
+    color: #555555;
+    margin-left: 102px;
+    margin-top: 6px;
+}
+
+/* -------------Блок popular ---------*/
+
+.popular {
+    width: 1440px;
+    height: 924px;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+
+.h2-popular {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    color: #222222;
+    margin-top: 120px;
+}
+
+.span-popular {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #555555;
+    margin-top: 16px;
+}
+
+.block-popular {
+    display: grid;
+    grid-template-rows:1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:30px;
+    width: 1170px;
+    height: 540px;
+    margin-top: 40px;
+}
+
+.box-popular {
+    grid-column:1/2;
+    grid-row:1/3;
+    background-image: url(..//img/Rectangle2186.png);
+}
+
+.box2-popular {
+    background-image: url(..//img/Rectangle2187.png);
+}
+
+.box3-popular {
+    background-image: url(..//img/Rectangle2188.png);
+}   
+
+.box4-popular {
+    background-image: url(..//img/Rectangle2189.png);
+}
+
+.box5-popular {
+    background-image: url(..//img/Rectangle2190.png);
+}
+
+.hover-popular:hover {
+    outline: 5px solid #19BCE4;
+    background-size: 102%;
+}
+
+.box-text-popular {
+    width: 200px;
+    height: 88px;
+    background: rgba(0, 96, 119, 0.02);
+    backdrop-filter: blur(29px);
+    text-align: center;
+    display: block;
+}
+
+.text-box2-popular {
+    margin-left: 85px;
+    margin-top: 340px;
+}
+
+.text-box2-popular2 {
+    margin-left: 85px;
+    margin-top: 143px;  
+}
+
+.span-text-box2-popular {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.p-text-box2-popular {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #DDDDDD;
+    display: block;
+    margin-top: 8px;
+}
+
+/* -------------Блок popular ---------*/
+
+.who {
+    width: 1440px;
+    height: 670px;
+    margin: 0 auto; 
+    display: flex;
+}
+
+.text-who {
+    height: 670px;
+    width: 596px;
+    margin-left: 135px;
+}
+
+.h2-text-who {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    color: #222222;
+    margin-top: 93px;
+    
+}
+
+.span-text-who {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555555;
+    margin-top: 20px;
+}
+
+.img-who {
+    margin-left: 36px;
+    width: 673px;
+    height: 550px;
+}
+
